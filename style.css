@@ -71,8 +71,12 @@ ul{
 }
 #second-display{
     display: flex;
-    margin: 20px 70px 20px 70px;
+    margin: 5px 60px 20px 60px;
     justify-content: space-between;
+    text-align: justify;
+}
+#second-header{
+    margin: 20px 70px 20px 70px;
 }
 .card{
     background-color: white;
@@ -82,7 +86,7 @@ ul{
     border-radius: 10px;
 }
 #third-display{
-    margin: 20px 70px 20px 70px;  
+    margin: 5px 60px 20px 60px; 
     justify-content: center;
 
 }
@@ -104,9 +108,15 @@ ul{
 }
 #third-paragraph-2{
     background-color: rgb(41, 112, 41);
+    text-align: justify;
 }
 #third-paragraph-3{
     background-color: plum;
+    text-align: justify;
+}
+#third-header{
+    margin: 0px 70px 20px 70px;
+    text-align: justify;
 }
 .third-btn{
     margin: 15px 0px;
@@ -149,4 +159,54 @@ ul{
     background-position-y: 30px;
     border-radius: 15px;
     padding: 35px;
+    text-align: justify;
+}
+#fifth-display{
+    margin: 40px 70px 20px 70px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+}
+#fifth-content{
+    margin: 15px;
+    background-color: rgb(184, 183, 183);
+}
+#fifth-header{
+    margin: 0px 70px 0px 70px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th{
+    background-color: skyblue;
+    height: fit-content;
+    border: 1px solid skyblue;
+  }
+  tr, td{
+    border: 1px solid black;
+  }
+  td:nth-child(odd){
+    width: 80%;
+  }
+  td:nth-child(even){
+    width: 20%;
+  }
+  .td-nth-odd{
+    text-align: left;
+    padding: 10px;
+  }
+  .td-nth-even{
+    text-align: right;
+    padding: 10px;
+  }
+  #Select-1{
+    padding: 15px 20px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 10px;
+  }
+  #sixth-header{
+    margin: 0px 70px 0px 70px;
+    text-align: justify;
 }
