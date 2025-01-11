@@ -210,3 +210,123 @@ table {
     margin: 0px 70px 0px 70px;
     text-align: justify;
 }
+#sixth-display{
+    display: flex;
+    align-items: center;
+    margin: 40px 70px 20px 70px;  
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.sixth-paragraph{
+    text-align: justify;
+    padding: 15px 15px 15px 0px;
+}
+.satelite{
+    height: fit-content;
+    border-radius: 15px;
+}
+#satelite-1{
+    float: right;
+}
+#seventh-display{
+    display: flex;
+    align-items: center;
+    margin: 40px 70px 20px 70px;  
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+.seventh-paragraph{
+    text-align: justify;
+    padding-top: 10px;
+}
+#seventh-content{
+    padding: 15px 15px 15px 15px;
+    justify-content: center;
+    align-items: center;
+}
+#satelite-2{
+    float: left;
+}
+#eighth-header{
+    margin: 0px 70px 0px 70px;
+    text-align: justify;
+    text-align: center;
+}
+#eighth-display{
+    display: flex;
+    align-items: center;
+    margin: 0px 70px 0px 70px;  
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 15px;
+}
+.donate{
+    padding: 10px 20px;
+    border: 0px;
+    border-radius: 5px;
+}
+.donate:hover{
+    background-color: green;
+    color: red;
+}
+#other-amount{
+    border: 0px;
+    border-radius: 5px;
+    margin: 10px 70px 0px 70px; 
+}
+#donate-2{
+   width: 100%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
+#Submit{
+    justify-content: center;
+    align-items: center;
+    border: 0px;
+    border-radius: 5px;
+    margin: 0px 70px 0px 70px; 
+    position: relative;
+    text-align: center;
+}
+#Submit-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+
+}
+#ninth-display{
+    align-items: center;
+    margin: 10px 70px 20px 70px;  
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 15px;
+    M
+}
+th:nth-child(odd){
+    width: 95%;
+  }
+th:nth-child(even){
+    width: 5%;
+  }
+  .th-nth-odd{
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    padding-right: 120PX;
+  }
+  .th-nth-even{
+    text-align: right;
+    padding: 10px;
+    background-color: green;
+    padding-right: 120PX;
+  }
+  .ninth-content{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
