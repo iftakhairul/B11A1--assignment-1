@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+}
+#naavbar{
+    margin: 20px 70px 20px 70px;
+}
+
+ul{
+    list-style-type: none;
+    margin: 20px 70px 20px 70px;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#btn
+{
+    margin: 15px 0px;
+    float: right;
+    color: green;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: solid 1px;
+}
+#btn:hover{
+    color: red;
+    background-color: green;
+}
+#first-display{
+    margin: 20px 70px 20px 70px;
+    padding: 20px;
+    border-radius: 25px;
+    overflow: hidden;
+    display: flex;
+    background-color: rgb(167, 198, 176) ;
+    align-items: center;
+    justify-content: space-between;
+}
+#first-paragraph{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+.button{
+    margin: 15px 0px;
+    color: white;
+    background-color: rgb(5, 52, 5);
+    padding: 10px;
+    border-radius: 10px;
+    border: 0cap;
+}
+.button:hover{
+    color: white;
+    background-color: red;
+}
+#bangladesh{
+    color: hsl(0, 0%, 54%);
+}
