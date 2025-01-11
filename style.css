@@ -9,7 +9,7 @@
     background-color: rgb(184, 183, 183);
     margin: 0px;
 }
-#main{
+#body{
     margin: 0px;
     background-color: rgb(184, 183, 183);
 }
@@ -31,7 +31,7 @@ ul{
     background-color: rgb(255, 255, 255);
     padding: 10px 15px;
     border-radius: 10px;
-    border: solid 1px;
+    border: solid 0.5px;
 }
 #btn:hover{
     color: red;
@@ -81,6 +81,61 @@ ul{
     margin: 10px;
     border-radius: 10px;
 }
-.card-paragraph{
-    
+#third-display{
+    margin: 20px 70px 20px 70px;  
+    justify-content: center;
+
+}
+#third-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+.third-paragraph{
+    background-color: white;
+    border: solid 1px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+#third-paragraph-1{
+    background-color: skyblue;
+}
+#third-paragraph-2{
+    background-color: rgb(41, 112, 41);
+}
+#third-paragraph-3{
+    background-color: plum;
+}
+.third-btn{
+    margin: 15px 0px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+}
+#third-btn-1{
+    background-color: rgb(2, 183, 255);
+    color: white;
+}
+#third-btn-2{
+    background-color: rgb(8, 82, 8);
+    color: white;
+}
+#third-btn-3{
+    background-color: rgb(191, 62, 131);
+    color: white;
+}
+#third-btn-1:hover{
+    background-color: rgb(255, 2, 196);
+    color: black;
+}
+#third-btn-2:hover{
+    background-color: rgb(255, 6, 22);
+    color: black;
+}
+#third-btn-3:hover{
+    background-color: rgb(0, 170, 255);
+    color: black;
 }
