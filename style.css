@@ -1,8 +1,17 @@
 *{
     margin: 0;
+    
 }
 #naavbar{
     margin: 20px 70px 20px 70px;
+}
+#header{
+    background-color: rgb(184, 183, 183);
+    margin: 0px;
+}
+#main{
+    margin: 0px;
+    background-color: rgb(184, 183, 183);
 }
 
 ul{
@@ -34,7 +43,7 @@ ul{
     border-radius: 25px;
     overflow: hidden;
     display: flex;
-    background-color: rgb(167, 198, 176) ;
+    background-color: rgb(111, 139, 119) ;
     align-items: center;
     justify-content: space-between;
 }
@@ -59,4 +68,19 @@ ul{
 }
 #bangladesh{
     color: hsl(0, 0%, 54%);
+}
+#second-display{
+    display: flex;
+    margin: 20px 70px 20px 70px;
+    justify-content: space-between;
+}
+.card{
+    background-color: white;
+    padding: 10px;
+    border: solid 1px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.card-paragraph{
+    
 }
