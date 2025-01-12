@@ -102,7 +102,7 @@
                 <tr>
                     <td class="td-nth-odd">Do you belive Bangladesh is on the right path towards becoming a developed nation?</td>
                     <td class="td-nth-even">
-                        <select id="Select-1">
+                        <select class="Select-1">
                             <option value="Yes, I agree">Yes, I agree</option>
                             <option value="No, I disagree">No, I disagree</option>
                             <option value="No comments">No comments</option>
@@ -113,7 +113,7 @@
                 <tr>
                     <td class="td-nth-odd">Do you belive Bangladesh is on the right path towards strong economy?</td>
                     <td class="td-nth-even">
-                        <select id="Select-1">
+                        <select class="Select-1">
                             <option value="Yes, I agree">Yes, I agree</option>
                             <option value="No, I disagree">No, I disagree</option>
                             <option value="No comments">No comments</option>
@@ -124,7 +124,7 @@
                 <tr>
                     <td class="td-nth-odd">Do you belive Bangladesh is on the right path towards world class education?</td>
                     <td class="td-nth-even">
-                        <select id="Select-1">
+                        <select class="Select-1">
                             <option value="Yes, I agree">Yes, I agree</option>
                             <option value="No, I disagree">No, I disagree</option>
                             <option value="No comments">No comments</option>
@@ -190,8 +190,9 @@
             <div ><button class="donate">1000 Taka</button></div>
         </div>
         <div id="other-amount">
-            <div><button id="donate-2">Other amount (Taka)</button></div>
-        </div>
+            <input  type="text" id="donate" name="fname" height="20px" placeholder="Other Amount (Taka)"  width="100%" readonly>
+        </div> 
+        
         <div id="Submit">
             <div id="submit-1"><button class="button">Done Now</button></div>
         </div>
@@ -199,13 +200,11 @@
             <div id="ninth-header">
                 <h2 class="ninth-content">Subscribe Newlatter</h2>
                 <p class="ninth-content">With a subscription, you pay to access content from an app or service for a period of time. For example, you might subscribe to Apple Music on a monthly basis. Subscriptions include services that you sign up for in an app, such as a video or music streaming service.</p>
-                <table class="ninth-table" class="ninth-content">
-                    <tr>
-                        <th class="th-nth-odd">Enter your email here</th>
-                        <th class="th-nth-even">Subscribe</th>
-                    </tr>
-                </table>
-                <p class="ninth-content">We promise not ypu spam</p>
+                <div id="last-display">
+                    <input type="email" name="email" placeholder="Enter your email" id="">
+                    <input type="Submit" value="Subcribe">
+                </div>
+                <p class="ninth-content">We promise not you spam</p>
             </div>
         </div>
     </main>

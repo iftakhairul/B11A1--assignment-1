@@ -200,7 +200,7 @@ table {
     text-align: right;
     padding: 10px;
   }
-  #Select-1{
+  .Select-1{
     padding: 15px 20px;
     background-color: skyblue;
     border: none;
@@ -273,6 +273,16 @@ table {
     background-color: green;
     color: red;
 }
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+  }
 #other-amount{
     border: 0px;
     border-radius: 5px;
@@ -308,25 +318,34 @@ table {
     border-radius: 15px;
     M
 }
-th:nth-child(odd){
-    width: 95%;
-  }
-th:nth-child(even){
-    width: 5%;
-  }
-  .th-nth-odd{
-    text-align: left;
-    padding: 10px;
-    background-color: white;
-    padding-right: 120PX;
-  }
-  .th-nth-even{
-    text-align: right;
-    padding: 10px;
-    background-color: green;
-    padding-right: 120PX;
-  }
   .ninth-content{
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  input[type=email], select {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: }
+    input[type=Submit]{
+        width: 20%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        background-color: green;
+        border-radius: 4px;
+        box-sizing: border-box;
+        text-align: left}
+#last-display{
+    display: flex;
+    justify-content: center;
+}
+input[type=submit]:hover {
+    opacity: 0.8;
+    cursor: pointer;
   }
