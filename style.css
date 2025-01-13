@@ -39,7 +39,10 @@ ul{
 }
 #first-display{
     margin: 20px 70px 20px 70px;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 20PX;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
     border-radius: 25px;
     overflow: hidden;
     display: flex;
@@ -84,6 +87,7 @@ ul{
     border: solid 1px;
     margin: 10px;
     border-radius: 10px;
+    width: 25%;
 }
 #third-display{
     margin: 5px 60px 20px 60px; 
@@ -265,7 +269,7 @@ table {
     border-radius: 15px;
 }
 .donate{
-    padding: 10px 20px;
+    padding: 20px 40px;
     border: 0px;
     border-radius: 5px;
 }
@@ -348,4 +352,16 @@ input[type=text], select {
 input[type=submit]:hover {
     opacity: 0.8;
     cursor: pointer;
+  }
+  #footer{
+    display: flex;
+    justify-content: center;
+  }
+  .footer-image{
+    padding-top: 10px;
+    padding: 10px;
+  }
+  footer{
+    text-align: center;
+    background-color: white;
   }
